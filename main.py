@@ -14,12 +14,12 @@ MAXIMO = 100
 
 def printUsage():
 	print("Usage: \n+ python main.py -u USERNAME -p PASSWORD -o info: Show report")
-	print("+ python main.py -u USERNAME -p PASSWORD -o follow-tag -t TAG: Follow users using the tags you introduce")
-	print("+ python main.py -u USERNAME -p PASSWORD -o follow-location -t LOCATION_ID: Follow users from a location")
-	print("+ python main.py -u USERNAME -p PASSWORD -o follow-list -t USER_LIST: Follow users from a file")
-	print("+ python main.py -u USERNAME -p PASSWORD -o super-followback: Follow back all the users who you dont follow back")
-	print("+ python main.py -u USERNAME -p PASSWORD -o super-unfollow: Unfollow all the users who dont follow you back")
-	print("+ python main.py -u USERNAME -p PASSWORD -o unfollow-all: Unfollow all the users")
+	print("+ python main.py -u USERNAME  -p PASSWORD  -o follow-tag -t TAG: Follow users using the tags you introduce")
+	print("+ python main.py -u USERNAME  -p PASSWORD  -o follow-location -t LOCATION_ID: Follow users from a location")
+	print("+ python main.py -u USERNAME  -p PASSWORD  -o follow-list -t USER_LIST: Follow users from a file")
+	print("+ python main.py -u USERNAME  -p PASSWORD  -o super-followback: Follow back all the users who you dont follow back")
+	print("+ python main.py -u USERNAME  -p PASSWORD  -o super-unfollow: Unfollow all the users who dont follow you back")
+	print("+ python main.py -u USERNAME  -p PASSWORD  -o unfollow-all: Unfollow all the users")
 
 
 def info():
